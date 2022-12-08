@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+  background-color: #0e0e0e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vmin;
+}
+
+.Form {
+  background-color: #2d3035;
+  width: 90%;
+  min-height: 90vmin;
+  margin: 3vmin;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  color: white;
+}
+.Form > h1 > span {
+  color: #8f55a1;
+}
+
+.Form > h1 {
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 0px;
+}
+
+.Form > h3 {
+  margin-top: 10vmin;
+  font-weight: 400;
+  font-size: large;
+  font-family: "Roboto";
+  line-height: 0px;
+}
+.Form > h4 {
+  font-weight: 400;
+  font-size: medium;
+  font-family: "Roboto";
+  line-height: 0px;
+  margin-bottom: 10vmin;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 16px;
+  color: white;
+}
+svg {
+  color: white !important;
+}
+.css-117w1su-MuiStepIcon-text {
+  fill: rgb(0, 0, 0) !important;
+  font-weight: 300;
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.css-2fdkz6.Mui-active {
+  color: rgb(255 255 255 / 87%) !important;
+  font-weight: 500;
+}
+.css-10psl7k {
+  fill: rgb(0, 0, 0) !important;
+  font-size: 0.75rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: rgba(255, 255, 255, 0.87) !important;
+  font-weight: 500;
+}
+
+.LEGAL_ENTITYS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: white;
+  color: #2d3035;
+  margin: 4vmin;
+}
+.LEGAL_ENTITYS > h1 {
+  font-weight: 460;
+  font-family: "Roboto";
+  font-size: x-large;
+  line-height: 10px;
+  margin-top: 3vmax;
+}
+
+.LEGAL_ENTITYS > h3 {
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: medium;
+  line-height: 8px;
+}
+
+.LEGAL_ENTITYS > input {
+  width: 90%;
+  padding: 2vmax;
+  margin: 1vmax;
+  outline: none;
+  border: 1px solid #959595;
+}
+
+.LEGAL_ENTITYS > button {
+  background-color: #8f55a1;
+  font-size: larger;
+  width: 8rem;
+  padding: 1vmax;
+  border-radius: 40px;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 2vmin;
+}
+
+@media only screen and (max-width: 750px) {
+  .LEGAL_ENTITYS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+    color: #2d3035;
+    margin: 4vmin;
+  }
+
+  .css-1npvetd {
+    width: 70% !important;
+    color: white;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Form {
+    background-color: #2d3035;
+    width: 94%;
+    min-height: 90vmin;
+    margin: 2vmin;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .css-1npvetd {
+    width: 90% !important;
+    color: white;
+    margin: auto;
+  }
+  .LEGAL_ENTITYS > input {
+    width: 80%;
+    padding: 2vmax;
+    margin: 1vmax;
+    outline: none;
+    border: 1px solid #959595;
+  }
+  .LEGAL_ENTITYS > input::placeholder {
+    font-size: small;
+  }
+
+  .Form > h1 {
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+
+  .Form > h3 {
+    margin-top: 10vmin;
+    font-weight: 400;
+    font-size: large;
+    font-family: "Roboto";
+    line-height: 16px;
+    width: 100%;
+  }
+  .Form > h4 {
+    font-weight: 400;
+    font-size: medium;
+    font-family: "Roboto";
+    line-height: 30px;
+    margin-bottom: 10vmin;
+    width: 100%;
+  }
+
+  .css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    margin-top: 7px;
+    margin-bottom: 14px;
+    font-size: x-small;
+  }
+}
